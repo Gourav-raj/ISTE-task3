@@ -24,6 +24,9 @@
    "https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
 * > FOR FONT STYLE
  "https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab"
+
+ 4. **Footer section**
+ * > The icons are connected to iste youtube and fb pages
 ***
 
 ## **Installation**
