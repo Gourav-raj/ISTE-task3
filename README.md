@@ -14,7 +14,7 @@
  
 2. **About languages used**-
   * > HTML-for basic structure
-  * > CSS-for styling and for making the website responsive using @media commands 
+  * > CSS-for styling and for making the website responsive using @media commands .the photos are also links to another website
   * > JAVASCRIPT- 
            1.Search box- onclicking on the search icon a search input bar shifts its postion which make it visible.
           2.Menu icon- on decreasing the width of the window this menu icon appers and on clicking it displays a veticle nav bar.
@@ -42,6 +42,7 @@
 ***
 ## **Roadmap**
 >need to add content and a scrollspy nav bar using bootstrap, and also a preloader to the index.html webpage.
+and also want add php to this website for making the search bar to work!! 
 
 ***
 ## **Contributing**
@@ -53,7 +54,7 @@
 > Not licensed!!
 
 ***
-## **Project status**
+### **Project status**
 > Its not yet completed ,this website needs content , have to add bootstrap for Scrollspy nav bar. Need some time to learn bootstrap!!
 
 **SOURCE-the photos are taken form the fb page of iste manit**
