@@ -46,7 +46,7 @@ and also want add php to this website for making the search bar to work!!
 
 ***
 ## **Contributing**
-> A contributor are happy invited. People can make the nav bar srollspy using Bootstrap..also need to add a registration form.
+> All contributor are happly invited. People can who make the nav bar srollspy using Bootstrap..also need to add a registration form using php.
 
 
 ***
