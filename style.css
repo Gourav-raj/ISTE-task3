@@ -1,3 +1,177 @@
+
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 100px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contents {
+  height: 450px;
+  width: 700px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-style:solid;
+  border-color: red;  
+  border-radius: 6px;
+}
+
+
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 42px;
+  color: red;
+  transform: rotate(45deg);
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+}
+/*thegame*/
+.g_header h1{
+top:20px;
+width: 100%;
+font-size: 32px;
+height: 15%;
+padding-top: 25px;
+background-color: #ecfef1;
+box-sizing: border-box;
+
+}
+.g_header{
+  margin-top : 20px;
+}
+.score-container{
+    position: relative;
+    margin-top: 30px;
+    color:red;
+}
+#score{
+ position: absolute;
+ text-align: center;
+ font-size: 30px;
+color: black;
+}
+.user{
+  position: absolute;
+  left: 150px;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 30px;
+  padding: 2px 10px;
+  color: white;
+  background-color: red; 
+  border-radius: 8px;
+  font-family:"Roboto Condensed";
+}
+
+.com{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 30px;
+  padding: 2px 10px;
+  color: white;
+  font-family:"Roboto Condensed";
+  background-color: red; 
+  border-radius: 8px;
+}
+
+.g_buttons{
+  width: 280px;
+  position: absolute;
+ top:50%;
+left: 30%;
+display: inline;
+}
+.g_bn{
+width: 80px;
+display: inline;
+height: 80px;
+margin: 5px;
+border:3px solid #34495e;
+border-radius: 50%;
+color: #34495e;
+font-size: 40px;
+cursor:pointer;
+outline: none;
+transition: .35s;
+
+}
+
+.g_bn:hover{
+  background-color: white;
+  border-color: green;
+}
+.g_msg{
+  position: absolute;
+  top: 75%;
+  left:38%;
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+}
+.g_msg p{
+  font-family: "sans-serif";
+
+}
+#g_umsg{
+  display: none;
+  color: green;
+}
+#g_cmsg{
+  display: none;
+color: red;
+}
+#g_dmsg{
+  display: none;
+color: purple;
+}
+
+
+#g_fmsg{
+  position: absolute;
+  top: 45%;
+  left:30%;
+  font-family: "Roboto Condensed";
+  font-size: 4px;
+display: none;
+}
+#g_fmsg h1{
+  font-size: 30px;
+color: white;
+}
+#g_lmsg{
+  position: absolute;
+  top: 45%;
+  left:20%;
+  font-family: "Roboto Condensed";
+  font-size: 4px;
+display: none;
+}
+#g_lmsg h1{
+  left: 20%;
+  font-size: 25px;
+color: white;
+}
+
+
+
+
+
+
+
+
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -54,13 +228,24 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.2) url("img/3.jpg");
+  background: rgba(0, 0, 0, 0.4) url("img/3.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: overlay;
   color: white;
 }
+
+/*animation*/
+
+#ani img{
+  position: absolute;
+  left: 70px;
+top: -30px;
+
+  height: 120px;
+}
+
 
 #banner h3 {
   background: black;
@@ -453,6 +638,13 @@ footer #social-media-footer ul li:hover a .fa-github {
     display: flex;
   }
 
+  #ani img{
+
+    height: 80px;
+    top: -5px;
+    left:120px;
+  }
+
   #slideout-menu {
     display: block;
   }
@@ -474,6 +666,13 @@ footer #social-media-footer ul li:hover a .fa-github {
 @media (max-width: 719px) {
   main {
     width: 95%;
+  }
+
+   #ani img{
+
+    height: 80px;
+    top: -5px;
+    left:120px;
   }
 
   section {
@@ -517,9 +716,127 @@ footer #social-media-footer ul li:hover a .fa-github {
   main {
     width: 100%;
   }
+   #ani img{
+
+    height: 80px;
+    top: -5px;
+    left:90px;
+  }
+
+  .score-container {
+  font-size: 10px;
+}
+.user{
+  font-size: 30px;
+  left: 50px;
+}
+#score{
+  font-size: 30px;
+  left: 40%;
+}
+.com{
+  font-size: 30px;
+  right:  0px;
+}
+.g_buttons{
+  left: 15%;
+  top:55%;
+}
+ .g_bn{
+  left: -30px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+}
+#g_umsg,#g_cmsg,#g_lmsg,#g_fmsg,#g_dmsg {
+  font-size: 30px;
+}
+#g_lmsg,#g_fmsg{
+  left:30px;
+}
+@media (max-width: 460px){
+  .score-container {
+  font-size: 10px;
+}
+.user{
+  font-size: 25px;
+  left: 50px;
+}
+#score{
+  font-size: 25px;
+  left: 40%;
+}
+.com{
+  font-size: 25px;
+  right:  0px;
+}
+.g_buttons{
+  left: 2%;
+  top:55%;
+}
+ .g_bn{
+  padding: 0;
+  left: -30px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+}
+#g_umsg,#g_cmsg,#g_lmsg,#g_fmsg,#g_dmsg {
+  font-size: 30px;
+}
+#g_lmsg,#g_fmsg{
+  left:20px;
+}
+}
+@media (max-width: 410px){
+   .score-container {
+  font-size: 10px;
+}
+  .user{
+  font-size: 20px;
+  left: 40px;
+}
+#score{
+  font-size: 18px;
+  left: 38%;
+}
+.com{
+  font-size: 20px;
+  right:  -13px;
+}
+}
+
+@media (max-width: 310px){
+  .g_buttons{
+  left: -8%;
+  top:65%;
+}
+
+ .g_bn{
+  padding: 0;
+  left: -30px;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+}
+.user{
+  font-size: 15px;
+  left: 50px;
+}
+#score{
+  font-size: 15px;
+  left: 40%;
+}
+.com{
+  font-size: 15px;
+   right: -8px;
+}
+}
+
+
 
   h1 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   #banner h3 {
@@ -539,6 +856,12 @@ footer #social-media-footer ul li:hover a .fa-github {
   main {
     width: 95%;
   }
+   #ani img{
+
+    height: 80px;
+    top: -5px;
+    left:120px;
+  }
   .card {
     width: 45%;
   }
@@ -547,8 +870,26 @@ footer #social-media-footer ul li:hover a .fa-github {
   }
 }
 
+@media (min-width: 900px)
+{
+
+#ani img{
+
+    height: 80px;
+    top: -5px;
+    left:120px;
+
+}
+
 @media (min-width: 1200px) {
   main {
     width: 85%;
+  }
+  
+    #ani img{
+
+    height: 80px;
+    top: -5px;
+    left:120px;
   }
 }
