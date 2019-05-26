@@ -1,6 +1,6 @@
 *** 
 #  **ISTE WEBSITE**
-# internet connection required for icons!
+# internet connection required for icons! and requried carousel is in event section which change onmouseover !!
 ***
 ## Discription
  This is a responsive website for ISTE web development task-3
