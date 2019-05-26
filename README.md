@@ -1,6 +1,6 @@
 *** 
 #  **ISTE WEBSITE**
-#internet connection required!
+# internet connection required for icons!
 ***
 ## Discription
  This is a responsive website for ISTE web development task-3
@@ -24,6 +24,8 @@
    "https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
 * > FOR FONT STYLE
  "https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab"
+ * > For icons 
+ "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 
  4. **Footer section**
  * > The icons are connected to iste youtube and fb pages
@@ -31,8 +33,8 @@
  5. **A game & An animation**
 * > Using js a rock paper scissors game is added and on count of three game closes and and the gaurd animation moves and dissapears.
 
- 6. **A carousel **
- * > Using js there are 3 slideshow . in background and in the Event section.
+ 6. **A carousel**
+ * > Using js there are 3 slideshow . In background and in the Event section **which changes onmouseover in the event section** .
  ***
 ## **Installation**
 > No  specific app required 
