@@ -230,15 +230,7 @@ textarea:focus {
   justify-content: center;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.4) url("img/3.jpg");
-  background-size: cover , contain ;
-  background-repeat: no-repeat;
-
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
-
-
-
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: overlay;
