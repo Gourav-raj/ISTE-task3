@@ -1,6 +1,6 @@
-***
+*** 
 #  **ISTE WEBSITE**
-
+#internet connection required!
 ***
 ## Discription
  This is a responsive website for ISTE web development task-3
@@ -27,16 +27,18 @@
 
  4. **Footer section**
  * > The icons are connected to iste youtube and fb pages
-***
 
+ 5. **A game & An animation**
+* > Using js a rock paper scissors game is added and on count of three game closes and and the gaurd animation moves and dissapears.
+
+ 6. **A carousel **
+ * > Using js there are 3 slideshow . in background and in the Event section.
+ ***
 ## **Installation**
 > No  specific app required 
 * Requirements
 1. A browser-crome, firefox
 2. A text editor- notepad,sublime,atom
-
-
-
 
 
 ***
